@@ -14,6 +14,8 @@
 		A93FC277235DA1A7001DB6BD /* NavigationTut.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A93FC275235DA1A7001DB6BD /* NavigationTut.xcdatamodeld */; };
 		A93FC279235DA1AC001DB6BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93FC278235DA1AC001DB6BD /* Assets.xcassets */; };
 		A93FC27C235DA1AC001DB6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93FC27A235DA1AC001DB6BD /* LaunchScreen.storyboard */; };
+		A93FC284235DAA48001DB6BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FC283235DAA48001DB6BD /* LoginViewController.swift */; };
+		A93FC286235DB139001DB6BD /* MainNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FC285235DB139001DB6BD /* MainNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A93FC278235DA1AC001DB6BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A93FC27B235DA1AC001DB6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A93FC27D235DA1AC001DB6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93FC283235DAA48001DB6BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A93FC285235DB139001DB6BD /* MainNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				A93FC27A235DA1AC001DB6BD /* LaunchScreen.storyboard */,
 				A93FC27D235DA1AC001DB6BD /* Info.plist */,
 				A93FC275235DA1A7001DB6BD /* NavigationTut.xcdatamodeld */,
+				A93FC283235DAA48001DB6BD /* LoginViewController.swift */,
+				A93FC285235DB139001DB6BD /* MainNav.swift */,
 			);
 			path = NavigationTut;
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93FC286235DB139001DB6BD /* MainNav.swift in Sources */,
 				A93FC271235DA1A7001DB6BD /* ViewController.swift in Sources */,
 				A93FC26D235DA1A7001DB6BD /* AppDelegate.swift in Sources */,
 				A93FC26F235DA1A7001DB6BD /* SceneDelegate.swift in Sources */,
+				A93FC284235DAA48001DB6BD /* LoginViewController.swift in Sources */,
 				A93FC277235DA1A7001DB6BD /* NavigationTut.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
